@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Philips.PhilipsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/discover_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="扫描设备" />
+
+        <Button
+            android:id="@+id/wifi_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取加密Key" />
+
+        <Button
+            android:id="@+id/left_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="向左旋转" />
+
+        <Button
+            android:id="@+id/right_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="向右旋转" />
+
+        <Button
+            android:id="@+id/before_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="向前行动" />
+
+        <Button
+            android:id="@+id/behind_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="向后行动" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
