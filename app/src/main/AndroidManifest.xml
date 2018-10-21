@@ -47,6 +47,8 @@
         <activity android:name=".CloseActivity" android:theme="@android:style/Theme.NoDisplay" android:exported="true">
 
         </activity>
+        <activity android:name=".MainActivity1" android:exported="true"></activity>
+        <activity android:name=".MainActivity2" android:exported="true"></activity>
     </application>
 
 </manifest>

@@ -9,6 +9,7 @@ public class CloseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_close);
-        System.exit(0);
+        //System.exit(0);
+        finish();
     }
 }
